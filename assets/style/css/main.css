@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#header {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+#header h1 {
+  font-size: 5.5rem;
+  color: #212529;
+}
+#header h3 {
+  font-style: italic;
+  margin: 20px 0;
+  color: #212529;
+}
+#header div {
+  margin: 30px 0;
+}
+#header div a {
+  padding: 20px 35px;
+  background-color: #1D809F;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 0.9rem;
+}
+
+#Stylish {
+  text-align: center;
+  margin: 100px 0;
+}
+#Stylish h4 {
+  color: #212529;
+  font-size: 2rem;
+}
+#Stylish p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: gray;
+  margin: 10px 0 20px;
+}
+#Stylish p a {
+  color: #1D809F;
+  text-decoration: underline;
+}
+#Stylish div {
+  margin: 50px 0;
+}
+#Stylish div a {
+  padding: 20px 35px;
+  background-color: #212529;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 0.9rem;
+}
+
+#next-project {
+  background-color: #1D809F;
+  text-align: center;
+  padding: 90px 160px;
+}
+#next-project h5 {
+  color: #F2BF1E;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+#next-project h2 {
+  font-size: 3rem;
+  color: #fff;
+  margin: 10px 0 50px;
+}
+#next-project .next-project-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  text-align: center;
+}
+#next-project .next-project-icons .icon div {
+  background-color: #FFF;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+#next-project .next-project-icons .icon div i {
+  color: #1D809F;
+  font-size: 2.3rem;
+}
+#next-project .next-project-icons .icon h6 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+  margin: 20px 0 20px;
+}
+#next-project .next-project-icons .icon p {
+  color: rgb(240, 227, 227);
+}
+
+#next-website {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  height: 70vh;
+}
+#next-website h2 {
+  font-size: 3.3rem;
+  max-width: 400px;
+  color: #212529;
+  margin: 20px 0 70px;
+}
+#next-website a {
+  padding: 20px 35px;
+  background-color: #1D809F;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 0.9rem;
+}
+
+#Recent-Projects {
+  padding: 90px 100px;
+  text-align: center;
+}
+#Recent-Projects h5 {
+  color: #F2BF1E;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+#Recent-Projects h2 {
+  font-size: 3rem;
+  margin: 10px 0 50px;
+}
+#Recent-Projects .recent-cards {
+  display: grid;
+  grid-template-areas: "card1 card2" "card3 card4";
+  place-content: center;
+}
+#Recent-Projects .recent-cards .recent-card {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  max-width: 600px;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  color: #fff;
+  text-align: start;
+  transition: all 0.3s ease;
+}
+#Recent-Projects .recent-cards .recent-card .recent-card-text {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(29, 128, 159, 0);
+}
+#Recent-Projects .recent-cards .recent-card:hover {
+  transform: scale(0.9);
+  background-color: rgba(29, 128, 159, 0.4);
+}
+#Recent-Projects .recent-cards .card1 {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg);
+  grid-area: card1;
+}
+#Recent-Projects .recent-cards .card2 {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-2.jpg);
+  grid-area: card2;
+}
+#Recent-Projects .recent-cards .card3 {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-3.jpg);
+  grid-area: card3;
+}
+#Recent-Projects .recent-cards .card4 {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg);
+  grid-area: card4;
+}
+
+#bellow-buttons {
+  text-align: center;
+  background-color: #1D809F;
+  padding: 90px 180px;
+}
+#bellow-buttons h3 {
+  font-size: 2rem;
+  color: #fff;
+  margin: 30px 0;
+}
+#bellow-buttons div {
+  display: flex;
+  justify-content: center;
+}
+#bellow-buttons div .link-button {
+  padding: 20px 35px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  color: #000;
+  margin-right: 20px;
+}
+#bellow-buttons div .link-button2 {
+  padding: 20px 35px;
+  background-color: #212529;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 0.9rem;
+}
+
+#map {
+  height: 65vh;
+}
+
+#footer {
+  padding: 70px 100px;
+  text-align: center;
+}
+#footer .social-media-icons {
+  display: flex;
+  justify-content: center;
+}
+#footer .social-media-icons div {
+  background-color: #1D809F;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+#footer .social-media-icons div i {
+  color: #fff;
+  font-size: 2rem;
+}
+#footer .copyright {
+  margin: 20px 0;
+}
+#footer .copyright span {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 1200px) {
+  #Recent-Projects {
+    padding: 90px 50px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  #Recent-Projects .recent-cards {
+    display: grid;
+    grid-template-areas: "card1" "card2 " "card3" "card4";
+    gap: 20px;
+  }
+}/*# sourceMappingURL=main.css.map */
